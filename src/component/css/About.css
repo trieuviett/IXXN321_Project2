@@ -54,7 +54,7 @@ section{
 	margin-right: auto;
 	color:white; 
 	text-align: center;
-    background-color: black;
+  background-color: black;
 }
 
 .text1{
@@ -85,11 +85,11 @@ section{
 
 .sec21 {
   padding-top: 10px;
-  background-color: #009750;
+  background-color: white;
  }
 
 .sec211 {
-  background-color: #009750;
+  background-color: white;
   height: 20%; 
   padding-bottom: 2%;
   text-align: center;

@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
 import './component/css/Header.css';
-import { Link } from "react-router-dom"
-class Header extends Component {
+import { NavLink, Link } from "react-router-dom"
+
+
+ class Header extends Component {
   render() {
+
     return (
 
       <div className="Header">
@@ -17,9 +20,9 @@ class Header extends Component {
     <Link to="/Home"><img class="logo" src={require("./component/img/Logo.png")}/></Link>
   </div>
   <ul className="navigation">
-    <Link to="/Gigs"><li>Gigs</li></Link>
-    <Link to="/Photos"><li>Photos</li></Link>
-    <Link to="/About"><li>About</li></Link>
+    <NavLink to="/Gigs" activeStyle={{ borderBottom: 'solid 3px #fff'}}><li>Gigs</li></NavLink>
+    <NavLink to="/Photos" activeStyle={{ borderBottom: 'solid 3px #fff'}}><li>Photos</li></NavLink>
+    <NavLink to="/About" activeStyle={{ borderBottom: 'solid 3px #fff'}}><li>About</li></NavLink>
   
   </ul>
 

@@ -73,10 +73,48 @@ ul{
   list-style-type: disc;
   margin-top:0;
   margin-bottom: 0;
+  padding-inline-start: 0px;
+
+  }
+
+@media only screen and (max-width: 700px) {
+  /* rules go here */
+  .appheader {
+     width: 100%;
+
+
+     }
+  .navigation a{
+
+  display: table;
+  float: left;
+  padding: 0px 0px;
+  color: white;
+  text-decoration: none;
+  font-family: "Verdana","Arial Black";
 
   }
 
 
+  .logo{
+  margin-right: auto;
+  margin-left:0px;
+  margin-top: 15%;
+ 
+  max-width:100%;
+  vertical-align: middle;
+}
+
+
+.logo_container{
+  height: 100%;
+  display: table;
+  float: left;
+  max-width:150px;
+}
+
+
+}
 
 
 

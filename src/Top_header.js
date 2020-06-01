@@ -15,8 +15,8 @@ class App extends Component {
   <div className="inner_topheader">
 
   <ul className="topnavigation">
-    <Link to="/Register"><li>Register</li></Link>
-    <Link to="/Signin"><li>Sign In</li></Link>
+    <Link to="/"><li>Register</li></Link>
+    <Link to="/"><li>Sign In</li></Link>
  
   
     <a><li><input type="text" placeholder="Search..."/></li></a>

@@ -13,7 +13,8 @@ import {
   Route,
   Switch,
   Link,
-  Redirect
+  Redirect,
+  NavLink
 
 } from "react-router-dom";
 
@@ -27,12 +28,11 @@ import SignIn from "./pages/SignIn";
 import Gigs from "./pages/Gigs";
 import Photos from "./pages/Photos";
 import About from "./pages/About";
-
+import OKiaBand from "./pages/O-Kia-Band-2016";
 
 class App extends Component {
   render() {
     return (
-
 
     <Router> 
 
@@ -43,14 +43,15 @@ class App extends Component {
 
   <Switch>
 
- <Route exact path ="/404" component={NotFoundPage} />
+ <Route exact path="/" component={Home} />
  <Route exact path ="/Home" component={Home} />
  <Route exact path ="/Register" component={Register} />
  <Route exact path ="/SignIn" component={SignIn} />
  <Route exact path ="/Gigs" component={Gigs} />
  <Route exact path ="/Photos" component={Photos} />
  <Route exact path ="/About" component={About} />
-
+ <Route exact path ="/O-Kia-Band-2016" component={OKiaBand} />
+ <Route exact path ="/404" component={NotFoundPage} />
  <Redirect to ="/404" />
 
   </Switch>

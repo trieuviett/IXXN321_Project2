@@ -14,25 +14,25 @@ import Footer from '../Footer';
 import ima1 from '../component/img/1.jpg';
 
 
+
 const Gigs = () => {
 
 return (
 
 <React.Fragment>
 
-<Link to="/Photos">
+<Link to="/">
 <section className="Gigs"> 
 		<div className="g-row">
 			<div className="g-30">
 				<img className="Bandphoto" src={require("../component/img/1.jpg")}/>
 			</div>
 			<div className="g-70 padded">
-				<h3>Telecom</h3>
-				<p>Spark New Zealand Limited, more commonly known Spark, is a New Zealand telecommunications company providing fixed line telephone services, a mobile network, an internet service provider, and a major ICT provider to NZ businesses (through its Spark Digital division). Its name in te reo Māori is Kora Aotearoa, and it was formerly known as Telecom New Zealand until it was rebranded with its current name in 2014. It has operated as a publicly traded company since 1990.</p>
+				<h3>Noise Drone Repeat: Allswither, Column of Sand, n_ll, Jonny Marks</h3>
+				<p>WED 25TH SEPTEMBER</p>
 
-				<p> <a href="https://www.sparknz.co.nz/">https://www.sparknz.co.nz/</a>
-					
-				</p>
+				<p> Valhalla, Wellington</p>
+			
 			</div>
 		</div>
 </section>		
@@ -59,19 +59,19 @@ return (
 </Link>
 
 
-<Link to="/Photos">
+<Link to="/">
 <section className="Gigs"> 
 		<div className="g-row">
 			<div className="g-30">
 				<img className="Bandphoto" src={require("../component/img/1.jpg")}/>
 			</div>
 			<div className="g-70 padded">
-				<h3>Telecom</h3>
-				<p>Spark New Zealand Limited, more commonly known Spark, is a New Zealand telecommunications company providing fixed line telephone services, a mobile network, an internet service provider, and a major ICT provider to NZ businesses (through its Spark Digital division). Its name in te reo Māori is Kora Aotearoa, and it was formerly known as Telecom New Zealand until it was rebranded with its current name in 2014. It has operated as a publicly traded company since 1990.</p>
+				<h3>Kove (UK)</h3>
+				<p>WED 25TH SEPTEMBER</p>
 
-				<p> <a href="https://www.sparknz.co.nz/">https://www.sparknz.co.nz/</a>
+				<p> Caroline, Wellington</p>
 					
-				</p>
+				
 			</div>
 		</div>
 </section>		
@@ -84,12 +84,11 @@ return (
 				<img className="Bandphoto" src={require("../component/img/1.jpg")}/>
 			</div>
 			<div className="g-70 padded">
-				<h3>Telecom</h3>
-				<p>Spark New Zealand Limited, more commonly known Spark, is a New Zealand telecommunications company providing fixed line telephone services, a mobile network, an internet service provider, and a major ICT provider to NZ businesses (through its Spark Digital division). Its name in te reo Māori is Kora Aotearoa, and it was formerly known as Telecom New Zealand until it was rebranded with its current name in 2014. It has operated as a publicly traded company since 1990.</p>
-
-				<p> <a href="https://www.sparknz.co.nz/">https://www.sparknz.co.nz/</a>
+				<h3>Adam Hattaway And The Haunters</h3>
+				<p>WED 25TH SEPTEMBER</p>
+				<p> Meow, Wellington</p>
 					
-				</p>
+				
 			</div>
 		</div>
 </section>		
@@ -103,12 +102,11 @@ return (
 				<img className="Bandphoto" src={require("../component/img/1.jpg")}/>
 			</div>
 			<div className="g-70 padded">
-				<h3>Telecom</h3>
-				<p>Spark New Zealand Limited, more commonly known Spark, is a New Zealand telecommunications company providing fixed line telephone services, a mobile network, an internet service provider, and a major ICT provider to NZ businesses (through its Spark Digital division). Its name in te reo Māori is Kora Aotearoa, and it was formerly known as Telecom New Zealand until it was rebranded with its current name in 2014. It has operated as a publicly traded company since 1990.</p>
-
-				<p> <a href="https://www.sparknz.co.nz/">https://www.sparknz.co.nz/</a>
+				<h3>Return Of The Pigsloth</h3>
+				<p>WED 25TH SEPTEMBER</p>
+				<p> Valhalla, Wellington</p>
 					
-				</p>
+				
 			</div>
 		</div>
 </section>		
@@ -121,8 +119,6 @@ return (
 <Footer />
 
 </React.Fragment>
-
-
 
 	);
 };
