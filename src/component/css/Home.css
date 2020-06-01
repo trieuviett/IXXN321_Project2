@@ -1,0 +1,19 @@
+
+
+body{
+  height: 100%
+
+
+  }
+
+ .home{
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 18% 20%;
+  color: white; 
+  text-align: center;
+  font-size: 20px;
+
+
+} 

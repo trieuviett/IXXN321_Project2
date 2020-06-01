@@ -1,0 +1,82 @@
+section{
+
+  margin-left: auto;
+  margin-right: auto;
+
+  color: black; 
+  text-align: center;
+
+}
+.Gigs {
+	max-width: 70%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	color: black; 
+	text-align: left;
+	background-color: #DEDEDE;
+
+
+}
+
+.g-row{
+	width: 100%;
+	overflow: hidden;
+}
+
+.g-row img{
+	width: 95%;
+	padding: 10px 10px;
+}
+
+.g-50{
+	width: 50%;
+	float: left;
+}
+
+.g-30{
+	width: 30%;
+	float: left;
+}
+
+.g-70{
+	width: 65%;
+	float: left;
+}
+
+.show{
+	border: 1px solid blue;
+	padding: 2px;
+}
+
+.padded{
+	padding: 20px; 
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 20px;
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 10px;
+}
+
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
+
