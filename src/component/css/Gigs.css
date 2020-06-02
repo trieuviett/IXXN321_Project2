@@ -16,6 +16,7 @@ section{
 
 }
 
+
 h3{
 font-size: 25px;
 
@@ -55,6 +56,11 @@ font-size: 25px;
 }
 
 .g-30{
+	width: 150px;
+	float: left;
+}
+
+.g-301{
 	width: 350px;
 	float: left;
 }

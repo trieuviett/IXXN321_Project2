@@ -19,32 +19,32 @@ return (
 
 <div class="text1">
   <h1>Our services</h1>
-  <br/>
-<p>We offer professional car and motorbike rental services with various range of vehicles</p>
+<p>We offer professional digital platform for both musicians and audiences so musicians 
+can promote and sell tickets of their shows, while audiences can easily find what they are interested in. </p>
 </div>
 
 
 <div className="sec3">
 <div className="text1">
-<h5>Our Core Values</h5>
+<h1>Our Core Values</h1>
 </div>
 
 <div className="column2">
-  <h6> Trustworthy</h6>
-  <p> Our quality evaluation team make sure that your car will be
-the same as what you see on the website.</p>
+  <h3> Trustworthy</h3>
+  <p className="aboutp"> Our quality evaluation team make sure that your show will be
+equally promoted with other bands on the website.</p>
   </div>
 
   <div className="column2">
-  <h6> Speed</h6>
-  <p>Not about the speed of your car! It’s about the flexible access
-and smooth transaction.</p>
+  <h3> Speed</h3>
+  <p>Just a few clicks and forms to fill in, your show will instantly on our server. You also have flexibilites
+  to change details later on</p>
   </div>
 
   <div className="column2">
-   <h6> Satisfaction</h6>
-   <p>Customer services is our pride and competitive advantages.
-The pleasure of customer is our most valuable asset.</p>
+   <h3> Satisfaction</h3>
+   <p>The pleasure of musicians successfully promote their show and the pleasure
+   of audiences found their loved band are our most valuable asset.</p>
 
 </div>
 </div>
@@ -66,12 +66,12 @@ The pleasure of customer is our most valuable asset.</p>
   
 <div className="row">
   <div className="column5">
-    <h5>Neve Hoyte</h5>
-    <h2>Car and Marketing Expert</h2>
+    <h5>Viet Lu</h5>
+    <h2>CEO</h2>
   </div>
   <div className="column5">
-    <h5>Hieu Pham</h5>
-    <h2>E-commerce Expert</h2>
+    <h5>Hung Ton</h5>
+    <h2>Expert</h2>
   </div>
 </div>
 </div>

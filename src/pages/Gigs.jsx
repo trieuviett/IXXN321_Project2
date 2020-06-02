@@ -21,55 +21,19 @@ return (
 
 <React.Fragment>
 
-<Link to="/">
+
+
+<Link to="#">
 <section className="Gigs"> 
 		<div className="g-row">
 			<div className="g-30">
-				<img className="Bandphoto" src={require("../component/img/1.jpg")}/>
+				<img className="Bandphoto" src={require("../component/img/G1.jpg")}/>
 			</div>
 			<div className="g-70 padded">
-				<h3>Noise Drone Repeat: Allswither, Column of Sand, n_ll, Jonny Marks</h3>
-				<p>WED 25TH SEPTEMBER</p>
+				<h3>Tin Hut Live</h3>
+				<p>WED 3RD JUNE</p>
 
-				<p> Valhalla, Wellington</p>
-			
-			</div>
-		</div>
-</section>		
-</Link>
-
-
-
-<Link to="/Photos">
-<section className="Gigs"> 
-		<div className="g-row">
-			<div className="g-30">
-				<img className="Bandphoto" src={require("../component/img/1.jpg")}/>
-			</div>
-			<div className="g-70 padded">
-				<h3>Telecom</h3>
-				<p>Spark New Zealand Limited, more commonly known Spark, is a New Zealand telecommunications company providing fixed line telephone services, a mobile network, an internet service provider, and a major ICT provider to NZ businesses (through its Spark Digital division). Its name in te reo Māori is Kora Aotearoa, and it was formerly known as Telecom New Zealand until it was rebranded with its current name in 2014. It has operated as a publicly traded company since 1990.</p>
-
-				<p> <a href="https://www.sparknz.co.nz/">https://www.sparknz.co.nz/</a>
-					
-				</p>
-			</div>
-		</div>
-</section>		
-</Link>
-
-
-<Link to="/">
-<section className="Gigs"> 
-		<div className="g-row">
-			<div className="g-30">
-				<img className="Bandphoto" src={require("../component/img/1.jpg")}/>
-			</div>
-			<div className="g-70 padded">
-				<h3>Kove (UK)</h3>
-				<p>WED 25TH SEPTEMBER</p>
-
-				<p> Caroline, Wellington</p>
+				<p>The Tin Hut, Featherston</p>
 					
 				
 			</div>
@@ -77,16 +41,34 @@ return (
 </section>		
 </Link>
 
-<Link to="/Photos">
+<Link to="#">
 <section className="Gigs"> 
 		<div className="g-row">
 			<div className="g-30">
-				<img className="Bandphoto" src={require("../component/img/1.jpg")}/>
+				<img className="Bandphoto" src={require("../component/img/G2.jpg")}/>
 			</div>
 			<div className="g-70 padded">
-				<h3>Adam Hattaway And The Haunters</h3>
-				<p>WED 25TH SEPTEMBER</p>
-				<p> Meow, Wellington</p>
+				<h3>elbow - Postponed</h3>
+				<p>THU 4TH JUNE</p>
+
+				<p> Auckland Town Hall, Auckland</p>
+					
+				
+			</div>
+		</div>
+</section>		
+</Link>
+
+<Link to="#">
+<section className="Gigs"> 
+		<div className="g-row">
+			<div className="g-30">
+				<img className="Bandphoto" src={require("../component/img/G3.jpg")}/>
+			</div>
+			<div className="g-70 padded">
+				<h3>The Circling Sun</h3>
+				<p>FRI 5TH JUNE</p>
+				<p>Ponsonby Social Club, Auckland</p>
 					
 				
 			</div>
@@ -95,16 +77,50 @@ return (
 </Link>
 
 
-<Link to="/Photos">
+<Link to="#">
 <section className="Gigs"> 
 		<div className="g-row">
 			<div className="g-30">
-				<img className="Bandphoto" src={require("../component/img/1.jpg")}/>
+				<img className="Bandphoto" src={require("../component/img/G4.jpg")}/>
 			</div>
 			<div className="g-70 padded">
-				<h3>Return Of The Pigsloth</h3>
-				<p>WED 25TH SEPTEMBER</p>
-				<p> Valhalla, Wellington</p>
+				<h3>Under The Arcade Presents - Tooms And Repair</h3>
+				<p>FRI 5TH JUNE</p>
+				<p> The Wine Cellar, Auckland</p>
+					
+				
+			</div>
+		</div>
+</section>		
+</Link>
+
+<Link to="#">
+<section className="Gigs"> 
+		<div className="g-row">
+			<div className="g-30">
+				<img className="Bandphoto" src={require("../component/img/G5.jpeg")}/>
+			</div>
+			<div className="g-70 padded">
+				<h3>The Jac: A Gathering - Album Release</h3>
+				<p>FRI 5TH JUNE</p>
+				<p>The Third Eye, Wellington</p>
+					
+				
+			</div>
+		</div>
+</section>		
+</Link>
+
+<Link to="#">
+<section className="Gigs"> 
+		<div className="g-row">
+			<div className="g-30">
+				<img className="Bandphoto" src={require("../component/img/G6.jpeg")}/>
+			</div>
+			<div className="g-70 padded">
+				<h3>Under The Arcade Presents - Tooms And Repair</h3>
+				<p>FRI 5TH JUNE</p>
+				<p> The Wine Cellar, Auckland</p>
 					
 				
 			</div>

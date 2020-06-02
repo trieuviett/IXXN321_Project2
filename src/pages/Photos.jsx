@@ -10,8 +10,6 @@ import Top_header from '../Top_header';
 import Footer from '../Footer';
 
 
-import ima1 from '../component/img/1.jpg';
-
 
 
 const Photos = () => {
@@ -23,8 +21,8 @@ return (
 <Link to="/O-Kia-Band-2016">
 <section className="Photo"> 
 		<div className="g-row">
-			<div className="g-30">
-				<img className="Bandphoto" src={require("../component/img/1.jpg")}/>
+			<div className="g-301">
+				<img className="Bandphoto" src={require("../component/img/band10.jpg")}/>
 			</div>
 			<div className="g-70 padded">
 				<h3>O Kia Band</h3>
