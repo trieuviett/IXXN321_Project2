@@ -3,9 +3,11 @@ import './component/css/App.css';
 import './component/css/Top_header.css';
 import './component/css/Header.css';
 import './component/css/Footer.css';
+import './component/css/Filter.css';
 import Header from './Header';
 import Top_header from './Top_header';
 import Footer from './Footer';
+import Filter from './Filter';
 
 import {
 
@@ -38,6 +40,10 @@ class App extends Component {
 
   <Top_header />
   <Header />
+
+  <br/>
+   <br/>
+  <Filter />
 
 
 

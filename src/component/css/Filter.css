@@ -1,0 +1,134 @@
+.appfilter{
+  width: 70%;
+  height:55px;
+  display: block;
+  background-color: #E74343;
+  margin-left: 15%;
+
+}
+
+.inner_filter{
+  width: 90%;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.logo_container{
+  height: 100%;
+  display: table;
+  float: left;
+}
+
+.logo{
+  margin-right: auto;
+  margin-left:0px;
+  margin-top: 5%;
+  max-height:200px; 
+  max-width:200px;
+  vertical-align: middle;
+}
+
+.filternavigation{
+
+  float: left;
+  height: 100%;
+
+
+}
+
+.filternavigation a{
+
+  display: table;
+  float: left;
+  padding: 10px 90px;
+  color: white;
+  text-decoration: none;
+  font-family: "Verdana","Arial Black";
+  font-size: 25px;
+
+}
+
+
+
+
+.filternavigation a li{
+  height: 100%;
+  display: table-cell;
+  color: white;
+  font-size: 26px;
+  vertical-align: middle;
+  font-family: "Verdana","Arial Black",sans-serif;
+}
+
+.filternavigation a li:hover {
+  color: black;
+  transition: all 0.5s ease-in;
+}
+
+ul{
+
+  display: block;
+  list-style-type: disc;
+  margin-top:0;
+  margin-bottom: 0;
+  padding-inline-start: 0px;
+
+  }
+
+
+@media only screen and (max-width: 1200px) {
+.filternavigation a{
+
+  display: table;
+  float: left;
+  padding: 0px 5px;
+  color: white;
+  text-decoration: none;
+  font-family: "Verdana","Arial Black";
+
+  }
+
+}
+
+@media only screen and (max-width: 700px) {
+  /* rules go here */
+  .appfilter {
+     width: 70%;
+
+
+     }
+  .filternavigation a{
+
+  display: table;
+  float: left;
+  padding: 0px 5px;
+  color: white;
+  text-decoration: none;
+  font-family: "Verdana","Arial Black";
+
+  }
+
+
+  .logo{
+  margin-right: auto;
+  margin-left:0px;
+  margin-top: 15%;
+ 
+  max-width:100%;
+  vertical-align: middle;
+}
+
+
+.logo_container{
+  height: 100%;
+  display: table;
+  float: left;
+  max-width:150px;
+}
+
+
+}
+
+
+
