@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from "react-router-dom"
+
 
 import '../component/css/Top_header.css';
 import '../component/css/Header.css';
@@ -9,7 +9,18 @@ import Header from '../Header';
 import Top_header from '../Top_header';
 import Footer from '../Footer';
 
+import Filter from '../Filter';
+import '../component/css/Filter.css';
+import {
 
+  BrowserRouter as Router,
+  Route,
+  Switch,
+  Link,
+  Redirect,
+  NavLink
+
+} from "react-router-dom";
 
 
 const Photos = () => {
@@ -17,6 +28,13 @@ const Photos = () => {
 return (
 
 <React.Fragment>
+
+
+<Router>
+<br/>
+<br/>
+<Filter />
+</Router>
 
 <Link to="/O-Kia-Band-2016">
 <section className="Photo"> 

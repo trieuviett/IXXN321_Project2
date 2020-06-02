@@ -41,9 +41,6 @@ class App extends Component {
   <Top_header />
   <Header />
 
-  <br/>
-   <br/>
-  <Filter />
 
 
 

@@ -1,6 +1,4 @@
 import React from 'react';
-import Media from 'react-bootstrap/Media'
-import { Link } from "react-router-dom"
 
 import '../component/css/Top_header.css';
 import '../component/css/Header.css';
@@ -9,7 +7,18 @@ import '../component/css/Gigs.css';
 import Header from '../Header';
 import Top_header from '../Top_header';
 import Footer from '../Footer';
+import Filter from '../Filter';
+import '../component/css/Filter.css';
+import {
 
+  BrowserRouter as Router,
+  Route,
+  Switch,
+  Link,
+  Redirect,
+  NavLink
+
+} from "react-router-dom";
 
 import ima1 from '../component/img/1.jpg';
 
@@ -21,7 +30,11 @@ return (
 
 <React.Fragment>
 
-
+<Router>
+<br/>
+<br/>
+<Filter />
+</Router>
 
 <Link to="#">
 <section className="Gigs"> 
